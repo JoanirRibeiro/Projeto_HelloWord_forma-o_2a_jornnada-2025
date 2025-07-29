@@ -31,9 +31,9 @@ let aluno1 = {
 
 console.log(aluno1.nome) // “Joanir”
 console.log(aluno1.idade) // 43
-console.log(aluno1.materiaFavorita)
+console.log(aluno1.materiasFavoritas)
 // "Filosofia","Programação","Robótica"
-console.log(aluno1.materiaFavorita[1])
+console.log(aluno1.materiasFavoritas[1])
 
 const objeto = document.querySelector("#aluno");
 objeto.textContent = aluno1.nome;
